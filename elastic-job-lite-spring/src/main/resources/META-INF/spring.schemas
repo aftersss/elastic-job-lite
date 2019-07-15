@@ -1,2 +1,4 @@
 http\://elasticjob.io/schema/elasticjob/reg/reg-3.0.xsd=META-INF/namespace/reg-3.0.xsd
+http\://elasticjob.io/schema/elasticjob/reg/reg.xsd=META-INF/namespace/reg-3.0.xsd
 http\://elasticjob.io/schema/elasticjob/job/job-3.0.xsd=META-INF/namespace/job-3.0.xsd
+http\://elasticjob.io/schema/elasticjob/job/job.xsd=META-INF/namespace/job-3.0.xsd

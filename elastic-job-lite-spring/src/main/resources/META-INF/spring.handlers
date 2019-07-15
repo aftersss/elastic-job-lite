@@ -1,2 +1,2 @@
-http\://www.dangdang.com/schema/ddframe/reg=io.elasticjob.lite.spring.reg.handler.RegNamespaceHandler
-http\://www.dangdang.com/schema/ddframe/job=io.elasticjob.lite.spring.job.handler.JobNamespaceHandler
+http\://elasticjob.io/schema/elasticjob/reg=io.elasticjob.lite.spring.reg.handler.RegNamespaceHandler
+http\://elasticjob.io/schema/elasticjob/job=io.elasticjob.lite.spring.job.handler.JobNamespaceHandler
