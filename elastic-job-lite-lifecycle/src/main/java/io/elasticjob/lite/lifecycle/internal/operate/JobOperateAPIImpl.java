@@ -66,9 +66,9 @@ public final class JobOperateAPIImpl implements JobOperateAPI {
             JobNodePath jobNodePath = new JobNodePath(jobName.get());
             for (String each : regCenter.getChildrenKeys(jobNodePath.getServerNodePath())) {
                 if (disabled) {
-                    regCenter.persist(jobNodePath.getServerNodePath(each), "DISABLED");
+                    regCenter.update(jobNodePath.getServerNodePath(each), "DISABLED");
                 } else {
-                    regCenter.persist(jobNodePath.getServerNodePath(each), "");
+                    regCenter.update(jobNodePath.getServerNodePath(each), "");
                 }
             }
         } else if (serverIp.isPresent()) {
@@ -85,9 +85,9 @@ public final class JobOperateAPIImpl implements JobOperateAPI {
         JobNodePath jobNodePath = new JobNodePath(jobName);
         String serverNodePath = jobNodePath.getServerNodePath(serverIp);
         if (disabled) {
-            regCenter.persist(serverNodePath, "DISABLED");
+            regCenter.update(serverNodePath, "DISABLED");
         } else {
-            regCenter.persist(serverNodePath, "");
+            regCenter.update(serverNodePath, "");
         }
     }
     
